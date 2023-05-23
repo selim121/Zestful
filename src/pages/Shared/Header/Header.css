@@ -1,0 +1,63 @@
+.logo {
+    height: 40px;
+    width: 40px;
+}
+
+.navbar-bg {
+    background-color: rgba(104, 93, 49, 0.824) !important;
+}
+
+.title {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-link {
+    color: #FFFFFF !important;
+}
+
+.active-nav-link {
+    color: #feaf39 !important;
+}
+
+.signin-btn-bg {
+    background-color: #feaf39;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 7px 20px;
+    font-weight: 700;
+}
+
+.signin-btn-bg:hover {
+    border: 1px solid #feaf39;
+    background-color: #FFFFFF;
+    color: #feaf39;
+}
+
+.prof {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.profile {
+    position: relative;
+  }
+  
+  .profile-img:hover + .profile-name {
+    display: block;
+  }
+  
+  .profile-name {
+    display: none;
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    transform: translateX(-50%);
+    color: #feaf39;
+  }
+  
+
+.sign-out {
+    height: 25px;
+    width: 30px;
+}
